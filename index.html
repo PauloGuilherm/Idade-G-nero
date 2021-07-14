@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Verificador de idade
+    </h1>
+    <div id="caixa">
+         <div id="components">
+             <form class="form_edit1"> <!--- PRIMEIRO FORM-->
+                 <span>
+                     Data de nascimento:
+                    </span>
+                    <input type="number" name="Data_de_nascimento" id="data_nasc">
+                </form>
+                <form class="form_edit2"><!--SEGUNDO FORM-->
+                    <span>
+                        Sexo:
+                    </span>
+                    <input type="radio" name="Sexo" id="masculino">
+                    <span>
+                        Masculino:
+                    </span>
+                    <input type="radio" name="Sexo" id="feminino">
+                    <span>
+                        Feminino
+                    </span>
+                </form>
+                <form class="form_edit3"> <!--TERCEIRO FORM-->
+                    <input type="button" value="Verificar"  onclick="verificacao()">
+                </form>
+                <span id="saidaTexto">
+                    Informe os dados acima!
+                </span>
+                <form >
+                    <img id="img" class="imagem1" src=" ">                    
+                </form>
+        </div>
+    </div>
+    <span id="rodape">
+        Exercício JavaScript!
+    </span>
+    <script src="script.js"></script>
+</body>
+</html>

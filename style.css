@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    background: linear-gradient(-45deg, #ee2703, #627ae7, #4db85e, #d64f99);
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+
+}
+#caixa{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 7%;
+    display: flex;
+}
+#components{
+    color: black;
+}
+.imagem1{
+     width: 200px;
+    height: 200px;
+    margin-left: 15px;
+    border-radius: 60%;
+
+}
+.form_edit1{
+    display: flex;
+    margin-top: 50px;
+}
+.form_edit2{
+    padding-top: 13px;
+    padding-right: 170px;
+}
+.form_edit3{
+    padding-top: 13px;
+    padding-right: 330px;
+}
+#saidaTexto{
+    font-size: large;
+}
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+25% {
+    background-position: 100% 50%;
+}  
+100% {
+    background-position: 0% 50%;
+}
+}
+#rodape{
+    font-size: larger;
+    background: linear-gradient(-45deg, #0bf33d, #eb0b0b, #f308cc, #e9ec05);
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
+    font-style: italic;
+}
